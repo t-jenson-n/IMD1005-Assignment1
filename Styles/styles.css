@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(255, 255, 255);            
+    font-family: futura;
+    color: rgb(8, 84, 20);
+}
+
+
+section {
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 100px;
+    margin: 40px;
+
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+
+}
+footer{
+    background-color: rgb(193, 226, 59);
+    text-align: center;
+    border-radius: 30px;
+}
+
+nav {
+    display: block;
+  }
+
+h1{
+    color: rgb(61, 146, 22);
+    text-align: center;
+    font-size: 40px;
+}
+
+button{
+    border: none;
+    background-color: rgb(193, 226, 59);
+    border-radius: 30px;
+}
+
+
+.container {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+    width: 70vw;
+}
+
+.grid {
+    background-color: (193, 226, 59);
+    display: grid;
+}
+
+.basic-stacked-layout {
+    grid-template-rows: 100px 90vh auto;
+}
+
+.layout{
+    grid-template-rows: 100px 1fr auto;
+}
+
+
+.span-2 {
+    grid-column: span 2;
+}
+
+img {
+    float: left;
+}
