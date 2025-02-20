@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: Noto Sans, sans-serif;
+    color: rgb(224, 224, 224);
+    font-size: 20px;
+}
+
+section {
+    min-height: 100vh;
+    background-color: rgb(19, 19, 19);
+}
+
+header {
+    padding: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: rgb(228, 32, 11);
+    text-align: center;
+    padding: 20px;
+}
+
+.grid {
+    background-color: (193, 226, 59);
+    display: grid;
+}
+
+.layout {
+    grid-template-rows: 140px auto 75px;
+}
+
+
+h1 {
+    font-size: 60px;
+    font-family: Bebas Neue, sans-serif;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: Raleway, sans-serif;
+}
+
+h3 {
+    font-family: Raleway, sans-serif;
+}
+
+blockquote {
+    background-color: rgb(35, 34, 34);
+    border-radius: 30px;
+    padding: 30px
+}
+
+button {
+    border: none;
+    font-family: Raleway, sans-serif;
+    background-color: rgb(35, 34, 34);
+    color: rgb(236, 236, 236);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+
+}
+
+button:hover {
+    background-color: rgb(228, 32, 11);
+    transition-duration: 0.4s;
+}
+
+.title
+{
+    color: rgb(228, 32, 11);
+    background: none;
+    text-decoration: none;
+    transition-duration: 0.4s;
+
+}
+
+.title:hover {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    margin: 20px
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.center {
+    justify-self: center;
+}
